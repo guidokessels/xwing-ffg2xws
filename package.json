@@ -1,0 +1,39 @@
+{
+  "name": "xwing-ffg2xws",
+  "version": "0.0.0-development",
+  "description": "Convert an X-Wing squad from FFG's squadbuilder to XWS.",
+  "main": "dist/index.js",
+  "author": "Guido Kessels <mail@guidokessels.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "test": "jest tests",
+    "test:watch": "jest --watch",
+    "precommit": "lint-staged",
+    "semantic-release": "semantic-release"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --print-width 100 --trailing-comma es5 --write",
+      "git add",
+      "jest --bail --findRelatedTests"
+    ]
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "husky": "^0.14.1",
+    "jest": "^22.0.4",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.5.2",
+    "semantic-release": "^15.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guidokessels/xwing-ffg2xws.git"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "11111111-2222-3333-55555-37582fe00000",
+  "name": "Test Squad",
+  "description": "Test Description",
+  "deck": [
+    {
+      "pilot_card": {
+        "id": 7,
+        "name": "Biggs Darklighter",
+        "cost": "42",
+        "ffg_id": "XW_P_99999"
+      },
+      "slots": [
+        {
+          "id": 42,
+          "upgrade_types": [1],
+          "name": "Spinning"
+        }
+      ]
+    }
+  ],
+  "game_format": {},
+  "faction": {
+    "id": 3,
+    "name": "Scum and Villainy"
+  },
+  "game_mode": {},
+  "cost": 194
+}

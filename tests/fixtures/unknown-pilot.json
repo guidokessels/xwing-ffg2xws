@@ -1,0 +1,22 @@
+{
+  "id": "11111111-2222-3333-55555-37582fe00000",
+  "name": "Test Squad",
+  "description": "Test Description",
+  "deck": [
+    {
+      "pilot_card": {
+        "id": "99999",
+        "name": "JarJar",
+        "cost": "42",
+        "ffg_id": "XW_P_99999"
+      }
+    }
+  ],
+  "game_format": {},
+  "faction": {
+    "id": 3,
+    "name": "Scum and Villainy"
+  },
+  "game_mode": {},
+  "cost": 194
+}
