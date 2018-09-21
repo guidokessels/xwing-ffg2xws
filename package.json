@@ -13,7 +13,7 @@
     "semantic-release": "semantic-release"
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,json}": [
       "prettier --single-quote --print-width 100 --trailing-comma es5 --write",
       "git add",
       "jest --bail --findRelatedTests"
