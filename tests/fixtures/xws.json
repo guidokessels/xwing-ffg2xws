@@ -2,10 +2,12 @@
   "description": "Scum Trio",
   "faction": "scumandvillainy",
   "name": "Boba Fenn L3-37",
+  "points": 194,
   "pilots": [
     {
       "id": "l337-escapecraft",
       "ship": "escapecraft",
+      "points": 24,
       "upgrades": {
         "crew": ["tacticalofficer"]
       }
@@ -13,6 +15,7 @@
     {
       "id": "bobafett",
       "ship": "firesprayclasspatrolcraft",
+      "points": 99,
       "upgrades": {
         "talent": ["debrisgambit"],
         "crew": ["perceptivecopilot"],
@@ -23,6 +26,7 @@
     {
       "id": "fennrau",
       "ship": "fangfighter",
+      "points": 71,
       "upgrades": {
         "talent": ["fearless"]
       }
