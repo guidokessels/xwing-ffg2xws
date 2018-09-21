@@ -5,12 +5,14 @@
   "pilots": [
     {
       "id": "l337-escapecraft",
+      "ship": "escapecraft",
       "upgrades": {
         "crew": ["tacticalofficer"]
       }
     },
     {
       "id": "bobafett",
+      "ship": "firesprayclasspatrolcraft",
       "upgrades": {
         "talent": ["debrisgambit"],
         "crew": ["perceptivecopilot"],
@@ -20,6 +22,7 @@
     },
     {
       "id": "fennrau",
+      "ship": "fangfighter",
       "upgrades": {
         "talent": ["fearless"]
       }
