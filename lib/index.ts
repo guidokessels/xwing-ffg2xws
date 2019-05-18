@@ -70,11 +70,14 @@ const convert = (ffgSquad, xwsMap) => {
       id: xwsId,
       upgrades,
       points: cost,
+      ship: undefined,
     };
 
     // Ship is optional; Add it if we can find it, but don't break if we can't
     if (ship) {
       result.ship = ship;
+    } else {
+      delete result.ship;
     }
 
     return result;
