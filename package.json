@@ -9,8 +9,12 @@
     "build": "babel lib -d dist",
     "test": "jest tests",
     "test:watch": "jest --watch",
-    "precommit": "lint-staged",
     "semantic-release": "semantic-release"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,json}": [
