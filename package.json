@@ -18,10 +18,16 @@
   },
   "lint-staged": {
     "*.{js,json}": [
-      "prettier --single-quote --print-width 100 --trailing-comma es5 --write",
+      "prettier --write",
       "git add",
       "jest --bail --findRelatedTests"
     ]
+  },
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "singleQuote": true
   },
   "engines": {
     "node": ">=8.0.0"
