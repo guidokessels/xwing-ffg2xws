@@ -34,7 +34,7 @@
     "jest": "^24.8.0",
     "lint-staged": "^9.0.0",
     "prettier": "^1.17.1",
-    "semantic-release": "^15.13.12"
+    "semantic-release": "^16.0.0"
   },
   "repository": {
     "type": "git",
