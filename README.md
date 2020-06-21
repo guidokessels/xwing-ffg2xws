@@ -1,7 +1,5 @@
 # xwing-ffg2xws
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/guidokessels/xwing-ffg2xws.svg)](https://greenkeeper.io/)
-
 A simple Node module that takes a X-Wing squad in the [FFG Squadbuilder format](https://squadbuilder.fantasyflightgames.com) and returns the matching [XWS2 JSON object](https://github.com/elistevens/xws-spec/blob/master/README.md).
 
 ## Installation
@@ -27,6 +25,7 @@ $ npm install xwing-ffg2xws --save
 An error will be thrown if the squad is invalid or if the squad cannot be converted.
 
 ## License
+
 [MIT](http://guidokessels.mit-license.org/)
 
 ---
